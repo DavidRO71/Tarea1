@@ -51,7 +51,6 @@ def divide(op_1, op_2):
             return ("", http.client.NOT_ACCEPTABLE, HEADERS)
         else:
             return ("{}".format(CALCULATOR.divide(num_1, num_2)), http.client.OK, HEADERS)
-        
+
     except TypeError as e:
         return (str(e), http.client.BAD_REQUEST, HEADERS)
-
