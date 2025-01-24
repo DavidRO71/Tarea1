@@ -1,0 +1,5 @@
+C:\WorKir\UNIR\MODULO_2\Tareas\Tarea1\helloworld\test\rest\api_test.py:21: [B310] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+C:\WorKir\UNIR\MODULO_2\Tareas\Tarea1\helloworld\test\rest\api_test.py:31: [B310] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+C:\WorKir\UNIR\MODULO_2\Tareas\Tarea1\helloworld\test\rest\api_test.py:41: [B310] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+C:\WorKir\UNIR\MODULO_2\Tareas\Tarea1\helloworld\test\rest\api_test.py:52: [B310] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+C:\WorKir\UNIR\MODULO_2\Tareas\Tarea1\helloworld\test\rest\api_test.py:60: [B310] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
