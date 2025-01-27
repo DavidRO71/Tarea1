@@ -50,6 +50,15 @@ class TestCalculate(unittest.TestCase):
         self.assertEqual(0, self.calc.multiply(-1, 0))
         self.assertEqual(-2, self.calc.multiply(-1, 2))
         # self.assertRaises(TypeError, self.calc.multiply, "0", 0)
+    
+    def test_multiply_method_fails_with_nan_parameter(self):
+        self.assertRaises(TypeError, self.calc.multiply, "2", 2)
+        self.assertRaises(TypeError, self.calc.multiply, 2, "2")
+        self.assertRaises(TypeError, self.calc.multiply, "2", "2")
+        self.assertRaises(TypeError, self.calc.multiply, None, 2)
+        self.assertRaises(TypeError, self.calc.multiply, 2, None)
+        self.assertRaises(TypeError, self.calc.multiply, object(), 2)
+        self.assertRaises(TypeError, self.calc.multiply, 2, object())
         
     def test_power_method_returns_correct_result(self):
         self.assertEqual(4, self.calc.power(2, 2))
