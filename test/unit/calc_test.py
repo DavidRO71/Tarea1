@@ -94,6 +94,9 @@ class TestCalculate(unittest.TestCase):
         self.assertRaises(TypeError, self.calc.substract, 2, None)
         self.assertRaises(TypeError, self.calc.substract, object(), 2)
         self.assertRaises(TypeError, self.calc.substract, 2, object())
+
+    def test_divide_method_error(self):
+        self.assertRaises(TypeError, self.calc.divide, 2, 0)
         
 if __name__ == "__main__":  # pragma: no cover
     unittest.main()
